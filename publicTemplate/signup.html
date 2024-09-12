@@ -135,11 +135,11 @@
         <div class="container pt-17 pb-20 pt-md-19 pb-md-21 text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="display-1 mb-3">Connexion</h1>
+              <h1 class="display-1 mb-3">Inscription</h1>
               <nav class="d-inline-block" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Accueil</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Connexion</li>
+                  <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Inscription</li>
                 </ol>
               </nav>
             </div>
@@ -153,29 +153,40 @@
             <div class="col-lg-7 col-xl-6 col-xxl-5 mx-auto mt-n20">
               <div class="card">
                 <div class="card-body p-11 text-center">
-                  <h2 class="mb-3 text-start">Bienvenue</h2>
-                  <p class="lead mb-6 text-start">
-                    Veuillez entrer votre login (email ou pseudo) et
-                    votre mot de passe pour vous connecter.
-                  </p>
+                  <h2 class="mb-3 text-start">Inscrivez-vous à NomDeLApplication</h2>
+                  <p class="lead mb-6 text-start">L'inscription prend moins d'une minute.</p>
                   <form class="text-start mb-3" action="" method="POST">
                     <div class="form-floating mb-4">
-                      <input type="text" class="form-control" placeholder="Nom d'utilisateur ou Email" id="login"
-                        name="login">
-                      <label for="login">Pseudo ou Email</label>
+                      <input type="text" class="form-control" placeholder="Pseudo" id="username" name="username">
+                      <label for="username">Pseudo</label>
+                      <div class="invalid-feedback">
+                        <!-- Add error message here -->
+                      </div>
                     </div>
+
                     <div class="form-floating password-field mb-4">
                       <input type="password" class="form-control" placeholder="Mot de passe" id="loginPassword"
                         name="password">
                       <span class="password-toggle"><i class="uil uil-eye"></i></span>
                       <label for="loginPassword">Mot de passe</label>
+                      <div class="invalid-feedback">
+                        <!-- Add error message here -->
+                      </div>
                     </div>
-                    <button type="submit" class="btn btn-primary rounded-pill btn-login w-100 mb-2">Se
-                      connecter</button>
+
+                    <div class="form-floating password-field mb-4">
+                      <input type="password" class="form-control" placeholder="Confirmer le mot de passe"
+                        id="loginPasswordConfirm" name="password_confirmation">
+                      <span class="password-toggle"><i class="uil uil-eye"></i></span>
+                      <label for="loginPasswordConfirm">Confirmer le mot de passe</label>
+                      <div class="invalid-feedback">
+                        <!-- Add error message here -->
+                      </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary rounded-pill btn-login w-100 mb-2">S'inscrire</button>
                   </form>
-                  <p class="mb-1"><a href="#" class="hover">Mot de passe oublié ?</a></p>
-                  <p class="mb-0">Vous n'avez pas de compte ? <a href="./signup.html" class="hover">Inscrivez-vous</a>
-                  </p>
+                  <p class="mb-0">Vous avez déjà un compte ? <a href="./signin.html" class="hover">Se connecter</a></p>
                 </div>
               </div>
             </div>
