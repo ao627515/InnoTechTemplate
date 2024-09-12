@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Default Title</title>
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/plugins.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="content-wrapper">
+    <header class="wrapper bg-soft-primary">
+      <nav class="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a href="index.html" class="link-dark fw-bold display-6">AppName</a>
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">AppName</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Fermer"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">À propos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="blog.html">Articles</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Catégories</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="#">Catégorie 1</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="#">Catégorie 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <!-- User authentication example -->
+                <li class="nav-item d-block d-md-none">
+                  <a href="register.html" class="btn btn-sm btn-primary rounded-pill display-6">S'inscrire</a>
+                  <a href="login.html" class="btn btn-sm btn-outline-primary rounded-pill display-6 ms-2">Connexion</a>
+                </li>
+              </ul>
+              <div class="offcanvas-footer d-lg-none">
+                <div>
+                  <a href="mailto:example@example.com" class="link-inverse">example@example.com</a><br />
+                  +33 123 456 789<br />
+                  <nav class="nav social social-white mt-4">
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-youtube"></i></a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="wrapper bg-light">
+        <div class="container py-14 py-md-16">
+          <div class="row gx-lg-8 gx-xl-12">
+            <div class="col-lg-8">
+              <!-- Featured Post -->
+              <div class="blog classic-view">
+                <article class="post">
+                  <div class="card">
+                    <figure class="card-img-top overlay overlay-1 hover-scale">
+                      <a href="post-show.html">
+                        <img src="assets/img/photos/b1.jpg" alt="featured-post-slug" />
+                      </a>
+                      <figcaption>
+                        <h5 class="from-top mb-0">Read More</h5>
+                      </figcaption>
+                    </figure>
+                    <div class="card-body">
+                      <div class="post-header">
+                        <div class="post-category text-line">
+                          <a href="category-posts.html" class="hover" rel="category">Category Name</a>
+                        </div>
+                        <h2 class="post-title mt-1 mb-0">
+                          <a class="link-dark" href="post-show.html">
+                            Post Title
+                          </a>
+                        </h2>
+                      </div>
+                      <div class="post-content">
+                        <p>Post Description</p>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <ul class="post-meta d-flex mb-0">
+                        <li class="post-date"><i class="uil uil-calendar-alt"></i><span>Published Date</span></li>
+                        <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>Comments
+                            Count<span>Comments</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Posts List -->
+              <div class="blog grid grid-view">
+                <div class="row isotope gx-md-8 gy-8 mb-8">
+                  <article class="item post col-md-6">
+                    <div class="card">
+                      <figure class="card-img-top overlay overlay-1 hover-scale">
+                        <a href="post-show.html">
+                          <img src="assets/img/photos/b4.jpg" alt="" />
+                        </a>
+                        <figcaption>
+                          <h5 class="from-top mb-0">Read More</h5>
+                        </figcaption>
+                      </figure>
+                      <div class="card-body">
+                        <div class="post-header">
+                          <div class="post-category text-line">
+                            <a href="category-posts.html" class="hover" rel="category">Category Name</a>
+                          </div>
+                          <h2 class="post-title h3 mt-1 mb-3">
+                            <a class="link-dark" href="post-show.html">Post Title</a>
+                          </h2>
+                        </div>
+                        <div class="post-content">
+                          <p>Post Description</p>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                        <ul class="post-meta d-flex mb-0">
+                          <li class="post-date"><i class="uil uil-calendar-alt"></i><span>Published Date</span></li>
+                          <li class="post-comments"><a href="post-show.html#comments"><i
+                                class="uil uil-comment"></i>Comments
+                              Count</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="item post col-md-6">
+                    <div class="card">
+                      <figure class="card-img-top overlay overlay-1 hover-scale">
+                        <a href="post-show.html">
+                          <img src="assets/img/photos/b3.jpg" alt="" />
+                        </a>
+                        <figcaption>
+                          <h5 class="from-top mb-0">Read More</h5>
+                        </figcaption>
+                      </figure>
+                      <div class="card-body">
+                        <div class="post-header">
+                          <div class="post-category text-line">
+                            <a href="category-posts.html" class="hover" rel="category">Category Name</a>
+                          </div>
+                          <h2 class="post-title h3 mt-1 mb-3">
+                            <a class="link-dark" href="post-show.html">Post Title</a>
+                          </h2>
+                        </div>
+                        <div class="post-content">
+                          <p>Post Description</p>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                        <ul class="post-meta d-flex mb-0">
+                          <li class="post-date"><i class="uil uil-calendar-alt"></i><span>Published Date</span></li>
+                          <li class="post-comments"><a href="post-show.html#comments"><i
+                                class="uil uil-comment"></i>Comments
+                              Count</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="item post col-md-6">
+                    <article class="item post col-md-6"></article>
+                    <div class="card">
+                      <figure class="card-img-top overlay overlay-1 hover-scale">
+                        <a href="post-show.html">
+                          <img src="assets/img/photos/b2.jpg" alt="" />
+                        </a>
+                        <figcaption>
+                          <h5 class="from-top mb-0">Read More</h5>
+                        </figcaption>
+                      </figure>
+                      <div class="card-body">
+                        <div class="post-header">
+                          <div class="post-category text-line">
+                            <a href="category-posts.html" class="hover" rel="category">Category Name</a>
+                          </div>
+                          <h2 class="post-title h3 mt-1 mb-3">
+                            <a class="link-dark" href="post-show.html">Post Title</a>
+                          </h2>
+                        </div>
+                        <div class="post-content">
+                          <p>Post Description</p>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                        <ul class="post-meta d-flex mb-0">
+                          <li class="post-date"><i class="uil uil-calendar-alt"></i><span>Published Date</span></li>
+                          <li class="post-comments"><a href="post-show.html#comments"><i
+                                class="uil uil-comment"></i>Comments
+                              Count</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="item post col-md-6">
+                    <article class="item post col-md-6"></article>
+                    <div class="card">
+                      <figure class="card-img-top overlay overlay-1 hover-scale">
+                        <a href="post-show.html">
+                          <img src="assets/img/photos/b1.jpg" alt="" />
+                        </a>
+                        <figcaption>
+                          <h5 class="from-top mb-0">Read More</h5>
+                        </figcaption>
+                      </figure>
+                      <div class="card-body">
+                        <div class="post-header">
+                          <div class="post-category text-line">
+                            <a href="category-posts.html" class="hover" rel="category">Category Name</a>
+                          </div>
+                          <h2 class="post-title h3 mt-1 mb-3">
+                            <a class="link-dark" href="post-show.html">Post Title</a>
+                          </h2>
+                        </div>
+                        <div class="post-content">
+                          <p>Post Description</p>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                        <ul class="post-meta d-flex mb-0">
+                          <li class="post-date"><i class="uil uil-calendar-alt"></i><span>Published Date</span></li>
+                          <li class="post-comments"><a href="post-show.html#comments"><i
+                                class="uil uil-comment"></i>Comments
+                              Count</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+
+                <!-- Pagination -->
+                <nav class="d-flex" aria-label="pagination">
+                  <ul class="pagination">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true"><i class="uil uil-arrow-left"></i></span>
+                      </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true"><i class="uil uil-arrow-right"></i></span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+
+                <!-- No Posts Message -->
+                <section class="py-5 text-center">
+                  <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                      <div class="col-lg-8 col-xl-6">
+                        <p class="display-6 fw-bold mb-2">Aucun article pour l'instant !</p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+            </div>
+            <!-- Sidebar -->
+            <aside class="col-lg-4 sidebar mt-8 mt-lg-6">
+
+              <!-- Commented out search widget -->
+
+              <div class="widget">
+                <form class="search-form">
+                  <div class="form-floating mb-0">
+                    <input id="search-form" type="text" class="form-control" placeholder="Search">
+                    <label for="search-form">Search</label>
+                  </div>
+                </form>
+                <!-- /.search-form -->
+              </div>
+              <!-- /.widget -->
+
+
+              <div class="widget">
+                <h4 class="widget-title mb-3">À Propos de Nous</h4>
+                <p>Chez TechFacile, nous simplifions la technologie pour la rendre accessible à tous. Que
+                  vous soyez débutant ou expert, nous vous offrons les outils et les connaissances pour réussir
+                  dans le monde numérique. <br> Rejoignez-nous et découvrez un univers de possibilités
+                  technologiques.
+                </p>
+                <nav class="nav social">
+                  <a href="#"><i class="uil uil-twitter"></i></a>
+                  <a href="#"><i class="uil uil-facebook-f"></i></a>
+                  <a href="#"><i class="uil uil-youtube"></i></a>
+                </nav>
+                <!-- /.social -->
+              </div>
+              <!-- /.widget -->
+
+              <div class="widget">
+                <h4 class="widget-title mb-3">Articles</h4>
+                <ul class="image-list">
+                  <li>
+                    <figure class="rounded">
+                      <a href="post-show.html">
+                        <img src="./assets/img/photos/b3.jpg" alt="Post Title" />
+                      </a>
+                    </figure>
+                    <div class="post-content">
+                      <h6 class="mb-2">
+                        <a class="link-dark" href="post-show.html">Post Title</a>
+                      </h6>
+                      <ul class="post-meta">
+                        <li class="post-date"><i class="uil uil-calendar-alt"></i> <span>Published Date</span></li>
+                        <li class="post-comments"><a href="post-show.html#comments"><i class="uil uil-comment"></i>
+                            Comments
+                            Count</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <figure class="rounded">
+                      <a href="post-show.html">
+                        <img src="./assets/img/photos/b1.jpg" alt="Post Title" />
+                      </a>
+                    </figure>
+                    <div class="post-content">
+                      <h6 class="mb-2">
+                        <a class="link-dark" href="post-show.html">Post Title</a>
+                      </h6>
+                      <ul class="post-meta">
+                        <li class="post-date"><i class="uil uil-calendar-alt"></i> <span>Published Date</span></li>
+                        <li class="post-comments"><a href="post-show.html#comments"><i class="uil uil-comment"></i>
+                            Comments
+                            Count</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <figure class="rounded">
+                      <a href="post-show.html">
+                        <img src="./assets/img/photos/b2.jpg" alt="Post Title" />
+                      </a>
+                    </figure>
+                    <div class="post-content">
+                      <h6 class="mb-2">
+                        <a class="link-dark" href="post-show.html">Post Title</a>
+                      </h6>
+                      <ul class="post-meta">
+                        <li class="post-date"><i class="uil uil-calendar-alt"></i> <span>Published Date</span></li>
+                        <li class="post-comments"><a href="post-show.html#comments"><i class="uil uil-comment"></i>
+                            Comments
+                            Count</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <figure class="rounded">
+                      <a href="post-show.html">
+                        <img src="./assets/img/photos/b2.jpg" alt="Post Title" />
+                      </a>
+                    </figure>
+                    <div class="post-content">
+                      <h6 class="mb-2">
+                        <a class="link-dark" href="post-show.html">Post Title</a>
+                      </h6>
+                      <ul class="post-meta">
+                        <li class="post-date"><i class="uil uil-calendar-alt"></i> <span>Published Date</span></li>
+                        <li class="post-comments"><a href="post-show.html#comments"><i class="uil uil-comment"></i>
+                            Comments
+                            Count</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.widget -->
+
+              <div class="widget">
+                <h4 class="widget-title mb-3">Categories</h4>
+                <ul class="unordered-list bullet-primary text-reset">
+                  <li><a href="category-posts.html">Category Name (Count)</a></li>
+                  <li><a href="category-posts.html">Category Name (Count)</a></li>
+                  <li><a href="category-posts.html">Category Name (Count)</a></li>
+                  <li><a href="category-posts.html">Category Name (Count)</a></li>
+                </ul>
+              </div>
+              <!-- /.widget -->
+
+              <!-- Commented out archive widget -->
+
+              <div class="widget">
+                <h4 class="widget-title mb-3">Archive</h4>
+                <ul class="unordered-list bullet-primary text-reset">
+                  <li><a href="#">February 2019</a></li>
+                  <li><a href="#">January 2019</a></li>
+                  <li><a href="#">December 2018</a></li>
+                  <li><a href="#">November 2018</a></li>
+                  <li><a href="#">October 2018</a></li>
+                </ul>
+              </div>
+
+            </aside>
+          </div>
+      </section>
+
+    </main>
+  </div>
+
+  <footer class="bg-dark text-inverse">
+    <div class="container py-13 py-md-15">
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <p class="mb-4">©
+              <script>document.write(new Date().getFullYear());</script> AppName. Tous droits réservés.
+            </p>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Nous Contacter</h4>
+            <a href="mailto:example@example.com">example@example.com</a><br /> +33 123 456 789
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">En Savoir Plus</h4>
+            <ul class="list-unstyled mb-0">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="about.html">À propos</a></li>
+              <li><a href="blog.html">Articles</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Notre Newsletter</h4>
+            <p class="mb-5">Abonnez-vous pour recevoir nos actualités.</p>
+            <div class="newsletter-wrapper">
+              <form action="#" method="post" class="validate dark-fields" target="_blank" novalidate>
+                <div class="input-group form-floating">
+                  <input type="email" name="EMAIL" class="required email form-control" placeholder="Adresse email">
+                  <label for="email">Adresse email</label>
+                  <input type="submit" value="S'abonner" class="btn btn-primary">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="../global/js/main.js"></script>
+</body>
+
+</html>
