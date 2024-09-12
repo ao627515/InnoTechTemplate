@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Default Title</title>
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/plugins.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="content-wrapper">
+    <header class="wrapper bg-soft-primary">
+      <nav class="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a href="index.html" class="link-dark fw-bold display-6">AppName</a>
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">AppName</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Fermer"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">À propos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Articles</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Catégories</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="category-posts.html">Catégorie 1</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="category-posts.html">Catégorie 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <!-- User authentication example -->
+                <li class="nav-item dropdown d-block d-md-none">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Compte</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="#">
+                        <i class="uil uil-user"></i>
+                        Profil
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="#">
+                        <i class="uil uil-power"></i>
+                        Déconnexion
+                      </a>
+
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item d-block d-md-none d-flex mt-5">
+                  <a href="signup.html" class="btn btn-sm btn-primary rounded-pill display-6">
+                    S'inscrire
+                  </a>
+                  <a href="signin.html" class="btn btn-sm btn-outline-primary rounded-pill display-6 ms-2">Connexion</a>
+                </li>
+              </ul>
+              <div class="offcanvas-footer d-lg-none">
+                <div>
+                  <a href="mailto:example@example.com" class="link-inverse">example@example.com</a><br />
+                  +33 123 456 789<br />
+                  <nav class="nav social social-white mt-4">
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-youtube"></i></a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item d-none d-md-block">
+                <a href="signup.html" class="btn btn-sm btn-primary rounded-pill">
+                  S'inscrire
+                </a>
+              </li>
+              <li class="nav-item d-none d-md-block">
+                <a href="signin.html" class="btn btn-sm btn-outline-primary rounded-pill">Connexion</a>
+              </li>
+              <li class="nav-item d-none d-md-block dropdown">
+                <img class="avatar w-10 dropdown-toggle" data-bs-toggle="dropdown"
+                  src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="Avatar" />
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="profile-index.html">
+                      <i class="uil uil-user"></i>
+                      Profil
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">
+                      <i class="uil uil-power"></i>
+                      Déconnexion
+                    </a>
+
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="wrapper bg-gray">
+        <div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">
+          <div class="row">
+            <div class="col-md-7 col-lg-6 col-xl-5 mx-auto">
+              <h1 class="display-1 mb-3">Profil Utilisateur</h1>
+              <p class="lead px-lg-5 px-xxl-8">Gérez vos informations personnelles et vos préférences.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrapper bg-light">
+        <div class="container py-14 py-md-16">
+          <div class="row gx-lg-8 gx-xl-12">
+            <!-- Sidebar -->
+            <aside class="col-lg-4 sidebar mt-8 mt-lg-6">
+              <ul class="nav nav-tabs nav-pills flex-column">
+                <!-- Gestion du Profil -->
+                <li class="nav-item mb-3">
+                  <a class="nav-link active" href="profile-index.html">
+                    <i class="uil uil-user pe-1"></i>
+                    <span>Gestion du Profil</span>
+                  </a>
+                </li>
+                <!-- Support et Assistance -->
+                <li class="nav-item mb-3">
+                  <a class="nav-link" href="contact-support.html">
+                    <i class="uil uil-question-circle pe-1"></i>
+                    <span>Contacter le support</span>
+                  </a>
+                </li>
+                <li class="nav-item mb-3">
+                  <a class="nav-link" href="faq.html">
+                    <i class="uil uil-book-open pe-1"></i>
+                    <span>Consulter la FAQ</span>
+                  </a>
+                </li>
+                <li class="nav-item mb-3">
+                  <a class="nav-link" href="logout.html">
+                    <i class="uil uil-signout pe-1"></i>
+                    <span>Déconnexion</span>
+                  </a>
+                </li>
+              </ul>
+            </aside>
+
+            <!-- Contenu principal -->
+            <div class="col-lg-8">
+              <div class="container mt-5">
+                <div class="row">
+                  <div class="col-lg-10 mx-auto">
+                    <!-- Informations de l'utilisateur -->
+                    <div class="card mb-4" id="user-show">
+                      <div class="card-header">
+                        <h4 class="card-title">Informations de l'utilisateur</h4>
+                      </div>
+                      <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item"><strong>Nom :</strong> John Doe</li>
+                          <li class="list-group-item"><strong>Nom d'utilisateur :</strong> johndoe</li>
+                          <li class="list-group-item"><strong>Email :</strong> john.doe@example.com</li>
+                          <li class="list-group-item"><strong>Date de création du compte :</strong> 2023-01-01</li>
+                          <li class="list-group-item text-center">
+                            <button type="button" class="btn btn-primary rounded-pill btn-login w-100 mb-2"
+                              id="btn-edit">Modifier</button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="card mb-4 d-none" id="user-edit">
+                      <div class="card-header">
+                        <h4 class="card-title">Modification de l'utilisateur</h4>
+                      </div>
+                      <div class="card-body">
+                        <form class="text-start mb-3" action="profile-update.html" method="POST"
+                          enctype="multipart/form-data">
+                          <div class="form-floating mb-4">
+                            <img src="https://dummyimage.com/120x120/ced4da/6c757d.jpg" alt="Profil"
+                              id="profileImagePreview" height="120px">
+                            <div class="pt-2">
+                              <input type="file" name="avatar" id="avatarUpload" class="form-control" accept="image/*"
+                                hidden>
+                              <button type="button" class="btn btn-primary btn-sm" title="Upload new profile image"
+                                id="uploadBtn">
+                                <i class="uil uil-upload"></i>
+                              </button>
+                              <button type="button" class="btn btn-danger btn-sm" title="Remove my profile image"
+                                id="deletePreviewImageBtn">
+                                <i class="uil uil-trash"></i>
+                              </button>
+                            </div>
+                          </div>
+
+                          <div class="form-floating mb-4">
+                            <input type="text" class="form-control" placeholder="Nom" id="name" name="name"
+                              value="John Doe">
+                            <label for="name">Nom</label>
+                          </div>
+                          <div class="form-floating mb-4">
+                            <input type="text" class="form-control" placeholder="Pseudo" id="username" name="username"
+                              value="johndoe">
+                            <label for="username">Pseudo</label>
+                          </div>
+                          <div class="form-floating mb-4">
+                            <input type="text" class="form-control" placeholder="Email" id="email" name="email"
+                              value="john.doe@example.com">
+                            <label for="email">Email</label>
+                          </div>
+                          <button type="button" class="btn btn-warning rounded-pill btn-login w-100 mb-2"
+                            id="btn-cancel-edit">Annuler</button>
+                          <button type="submit"
+                            class="btn btn-primary rounded-pill btn-login w-100 mb-2">Enregistrer</button>
+                        </form>
+                      </div>
+                    </div>
+
+                    <!-- Modifier le mot de passe -->
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h4 class="card-title">Modifier le mot de passe</h4>
+                      </div>
+                      <div class="card-body">
+                        <form action="password-update.html" method="POST">
+                          <div class="mb-3">
+                            <label for="current_password" class="form-label">Mot de passe actuel</label>
+                            <input type="password" class="form-control" id="current_password" name="current_password"
+                              required>
+                          </div>
+                          <div class="mb-3">
+                            <label for="password" class="form-label">Nouveau mot de passe</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                          </div>
+                          <div class="mb-3">
+                            <label for="password_confirmation" class="form-label">Confirmer le mot de passe</label>
+                            <input type="password" class="form-control" id="password_confirmation"
+                              name="password_confirmation" required>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Mettre à jour</button>
+                        </form>
+                      </div>
+                    </div>
+
+                    <div class="card mb-4">
+                      <div class="card-header">
+                        <h4 class="card-title">Compte</h4>
+                      </div>
+                      <div class="card-body">
+                        <form action="account-delete.html" method="POST">
+                          <button class="btn btn-danger" type="submit"
+                            onclick="return confirm('Êtes-vous sûr de vouloir supprimer votre compte ?')">Supprimer le
+                            compte</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="bg-dark text-inverse">
+    <div class="container py-13 py-md-15">
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <p class="mb-4">©
+              <script>document.write(new Date().getFullYear());</script> AppName. Tous droits réservés.
+            </p>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Nous Contacter</h4>
+            <a href="mailto:example@example.com">example@example.com</a><br /> +33 123 456 789
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">En Savoir Plus</h4>
+            <ul class="list-unstyled mb-0">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="about.html">À propos</a></li>
+              <li><a href="blog.html">Articles</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Notre Newsletter</h4>
+            <p class="mb-5">Abonnez-vous pour recevoir nos actualités.</p>
+            <div class="newsletter-wrapper">
+              <form action="#" method="post" class="validate dark-fields" target="_blank" novalidate>
+                <div class="input-group form-floating">
+                  <input type="email" name="EMAIL" class="required email form-control" placeholder="Adresse email">
+                  <label for="email">Adresse email</label>
+                  <input type="submit" value="S'abonner" class="btn btn-primary">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="../global/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const showCard = document.getElementById('user-show');
+      const editCard = document.getElementById('user-edit');
+      const btnCancelEdit = document.getElementById('btn-cancel-edit');
+      const btnEdit = document.getElementById('btn-edit');
+
+      // Fonction pour basculer entre showCard et editCard
+      const toggleCards = (showEdit) => {
+        if (showEdit) {
+          showCard.classList.add('d-none');
+          editCard.classList.remove('d-none');
+        } else {
+          showCard.classList.remove('d-none');
+          editCard.classList.add('d-none');
+        }
+      };
+
+      // Vérification des éléments avant d'ajouter des écouteurs d'événements
+      const elementExists = (element) => !!element;
+
+      if (elementExists(showCard) && elementExists(editCard) && elementExists(btnCancelEdit) && elementExists(
+        btnEdit)) {
+        btnCancelEdit.addEventListener('click', () => toggleCards(false));
+        btnEdit.addEventListener('click', () => toggleCards(true));
+      }
+
+      // Bascule automatique si des erreurs existent
+
+
+      // Exemple d'utilisation des fonctions previewAvatar et removePreview
+      previewAvatar('uploadBtn', 'avatarUpload', 'profileImagePreview');
+      removePreview('deletePreviewImageBtn',
+        'profileImagePreview',
+        'https://dummyimage.com/120x120/ced4da/6c757d.jpg',
+        'avatarUpload');
+    });
+  </script>
+</body>
+
+</html>
